@@ -9,7 +9,7 @@ class day2chall{
         System.out.print(age);
     }
 }
-*/
+
 import java.util.Scanner;
 class day2chall{
     public static void main(String args[]){
@@ -23,5 +23,23 @@ class day2chall{
         System.out.println("My name is"+name);
         System.out.println("my age is"+age);
         System.out.print(address);
+    }
+}
+*/
+
+import java.util.Scanner;
+
+class day2chall{
+    public static void main(String args[]){
+        Scanner myscan = new Scanner(System.in);
+        int a = myscan.nextInt();
+        int b = myscan.nextInt();
+        int c = myscan.nextInt();
+        int d = a*b*c;
+        int e = a+b+c;
+        int answer = d/e;
+        System.out.print(answer);
+
+
     }
 }
