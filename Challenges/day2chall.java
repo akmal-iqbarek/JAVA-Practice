@@ -25,7 +25,7 @@ class day2chall{
         System.out.print(address);
     }
 }
-*/
+
 
 import java.util.Scanner;
 
@@ -37,9 +37,29 @@ class day2chall{
         int c = myscan.nextInt();
         int d = a*b*c;
         int e = a+b+c;
-        int answer = d/e;
+        float answer = d/e;
         System.out.print(answer);
 
 
     }
 }
+
+
+import java.util.Scanner;
+
+class day2chall{
+    public static void main(String args[]){
+        Scanner myscanner = new Scanner(System.in);
+
+        String name = myscanner.nextLine();
+        double score = myscanner.nextDouble();
+        myscanner.nextLine();
+        String department = myscanner.nextLine();
+
+        System.out.println("My name is "+name);
+        System.out.println("My score is "+score/10+"/10");
+        System.out.println("My department is "+department);
+    }
+}
+*/
+
